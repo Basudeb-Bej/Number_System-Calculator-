@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Conversion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+   <h1>Number Conversion</h1>
+    <label for="conversionType">Choose Conversion Type:</label>
+    <select id="conversionType" onchange="showConversionOptions()">
+      <option value="0">Select...</option>
+      <option value="1">Binary</option>
+      <option value="2">Decimal</option>
+      <option value="3">Octal</option>
+      <option value="4">Hexadecimal</option>
+    </select>
+
+  <div id="binaryOptions" class="conversion-options" style="display:none;">
+    <h2>Binary Conversion</h2>
+    <select id="binaryChoice">
+      <option value="1">Binary to Decimal</option>
+      <option value="2">Binary to Octal</option>
+      <option value="3">Binary to Hexadecimal</option>
+    </select>
+      <input type="number" id="binaryInput" placeholder="Enter Binary Number"><br><br>
+      <button onclick="convertBinary()">Convert</button>
+      <p id="binaryResult"></p>
+        </div>
+
+  <div id="decimalOptions" class="conversion-options" style="display:none;">
+    <h2>Decimal Conversion</h2>
+    <select id="decimalChoice">
+      <option value="1">Decimal to Binary</option>
+      <option value="2">Decimal to Octal</option>
+      <option value="3">Decimal to Hexadecimal</option>
+    </select>
+      <input type="number" id="decimalInput" placeholder="Enter Decimal Number">
+      <button onclick="convertDecimal()">Convert</button>
+      <p id="decimalResult"></p>
+  </div>
+
+  <div id="octalOptions" class="conversion-options" style="display:none;">
+    <h2>Octal Conversion</h2>
+    <select id="octalChoice">
+      <option value="1">Octal to Binary</option>
+      <option value="2">Octal to Decimal</option>
+      <option value="3">Octal to Hexadecimal</option>
+    </select>
+      <input type="number" id="octalInput" placeholder="Enter Octal Number">
+      <button onclick="convertOctal()">Convert</button>
+      <p id="octalResult"></p>
+  </div>
+
+  <div id="hexOptions" class="conversion-options" style="display:none;">
+    <h2>Hexadecimal Conversion</h2>
+    <select id="hexChoice">
+      <option value="1">Hexadecimal to Binary</option>
+      <option value="2">Hexadecimal to Decimal</option>
+      <option value="3">Hexadecimal to Octal</option>
+    </select>
+      <input type="text" id="hexInput" placeholder="Enter Hexadecimal Number">
+      <button onclick="convertHex()">Convert</button>
+      <p id="hexResult"></p>
+  </div>
+  </div>
+    <script src="script.js"></script>
+</body>
+</html>
