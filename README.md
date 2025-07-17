@@ -1,6 +1,10 @@
-# Number_System-Calculator-
+# 🔢 Number System Calculator
 
-Welcome to the Number System Calculator! This web application allows users to convert numbers between different number systems, including Binary, Decimal, Octal, and Hexadecimal. 
+A web-based calculator that converts numbers between **Decimal**, **Binary**, **Octal**, and **Hexadecimal** formats using **HTML**, **CSS**, and **JavaScript**.
+
+> 🚀 Live Demo: [number-system-calculator.vercel.app](https://number-system-calculator.vercel.app)
+
+---
 
 ## Table of Contents
 
@@ -24,3 +28,13 @@ Welcome to the Number System Calculator! This web application allows users to co
   - Hexadecimal to Binary
   - Hexadecimal to Decimal
   - Hexadecimal to Octal
+
+---
+
+## 🚀 Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript (Vanilla)
+
+---
